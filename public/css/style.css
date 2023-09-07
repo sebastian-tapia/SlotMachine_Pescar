@@ -160,12 +160,14 @@ ul li{
 }
 
 
-.body-card {
+.body-cards {
   background: #FFF;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  justify-content: space-around;
+
 }
 
 .card {
