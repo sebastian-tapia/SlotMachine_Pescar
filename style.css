@@ -2,12 +2,11 @@
   font-family: santander;
   src: url(./font/Santander\ Headline\ W05\ Regular.ttf);
 }
-
-body{
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  background-color: 	#f0f0f0;
+:root{
+  --outer-shadow: 
+  0 0 0.1vw 0.4vw #fffb00,
+  0 0 0.4vw 0.6 #000000 ,
+  0  0.1vw 0.4 #001214,
 }
 .title-content{
   display: flex;
@@ -29,16 +28,17 @@ h1{
   width: 120px;
   height: 120px;
   display: inline-block;
-  
   color: #ec0000;
 }
-
-:root{
-  --outer-shadow: 
-  0 0 0.1vw 0.4vw #fffb00,
-  0 0 0.4vw 0.6 #000000 ,
-  0  0.1vw 0.4 #001214,
+body{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: 	#f0f0f0;
 }
+
+
+
 
 .slot{
   width: 88%;
