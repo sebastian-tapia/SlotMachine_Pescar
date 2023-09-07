@@ -160,7 +160,7 @@ ul li{
 }
 
 
-.body-cards {
+.body-cards,.body-cards2 {
   background: #FFF;
   display: flex;
   align-items: center;
@@ -173,7 +173,8 @@ ul li{
 .card {
   position: relative;
   width: 300px;
-  height: 400px;    
+  height: 400px;
+  
 }
 
 .card div {
@@ -185,10 +186,12 @@ ul li{
   justify-content: center;
   backface-visibility: hidden;
   transition: 1s;
+  border-radius: 10px;
+  
 }
 
 .card .front {
-  background: #288ca0;
+  background: #ec0000 ;
   transform: perspective(500px) rotateY(0deg);
 }
 
