@@ -165,11 +165,13 @@ ul li{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 70vh;
   justify-content: space-around;
 
 }
-
+.body-cards{
+  margin-top: 50px;
+}
 .card {
   position: relative;
   width: 300px;
