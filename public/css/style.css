@@ -1,57 +1,54 @@
-@font-face {
-  font-family: santander;
-  src: url(./font/Santander\ Headline\ W05\ Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap'); /* Fuente del titulo */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap'); /* Fuente del boton "Comenzar" */
+
+
 :root{
   --outer-shadow: 
   0 0 0.1vw 0.4vw #fffb00,
   0 0 0.4vw 0.6 #000000 ,
   0  0.1vw 0.4 #001214,
 }
+
 .title-content{
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 h1{
- 
+  padding: 1rem;
   margin: 0;
-  color: #ec0000;
-  font-family: santander;
-  font-size: 8rem;
+  color: #dc0202;
+  font-family: 'ABeeZee';
+  font-size: 5.5rem;
   justify-content: center;
 }
 
 
 .logo {
-  margin-left: 20px;
-  width: 120px;
-  height: 120px;
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
   display: inline-block;
   color: #ec0000;
 }
+
 body{
   text-align: center;
   padding: 0;
   margin: 0;
-  background-color: 	#fff;
+  background-color: #f0f0f0;
 }
-
-
-
 
 .slot{
   width: 88%;
   height: 400px;
   overflow: hidden;
   margin: auto;
-  margin-top: 40px;
-  background-color: aliceblue;
+  margin-top: 20px;
   border-radius: 8px;
   box-shadow:var(--outer-shadow);
-
 }
-
 
 #slot-screen{
   height: 500px;
@@ -59,12 +56,10 @@ body{
   overflow: hidden;
 }
 
-
 ul{
   list-style: none;
 
 }
-
 
 ul li{
   border: 2px solid black;
@@ -73,6 +68,7 @@ ul li{
   margin: 1px 0;
   background-color: #333333;
 }
+
 .reels{
   width: 31%;
   position: absolute;
@@ -90,63 +86,66 @@ ul li{
 .reels:nth-child(3){
   right: 0; 
 }
- .reel img{
+
+.reel img{
   display: block;
   margin: auto;
   height: 240px;
   max-width: 100%;
- }
+}
 
-
- .stop-btn{
+.stop-btn{
   display: inline-block;
   padding: 35px;
   margin: 40px;
-  background-color: rgb(236,0,0);
+  background-color: #2c2c2c;
   box-shadow: 0 0 29 31 #fff,
   0 0 19px 19px #f00,
   0 0 33px 17px #f00;
-  border-bottom: solid 4px #627295;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   border-radius: 60px;
- }
+}
 
- .stop-btn:hover{
-  background-color: rgb(21, 199, 15);
+.stop-btn:hover{
+  background-color: #ec0000;
   cursor: pointer;
   box-shadow: 0 0 29px 31px #fff,
-  0 0 19px 19px rgb(21, 255, 0),
-  0 0 33px 1px rgb(0, 255, 42)
-   ;
- }
+  0 0 19px 19px 	#eb2929,
+  0 0 33px 1px 	#ef4040
+  ;
+}
 
- .stop-btn:active{
+.stop-btn:active{
   -webkit-transform: translateY(4px);
   transform:translateY(4px);
   border-bottom: none;
- }
+}
 
- #start-btn{
+#start-btn{
   display: inline-block;
   padding: 20px 40px;
-  background-color: #13aa52;
-  border: 5px solid #02893a;
+  background-color: 	#ec0000;
+  border: 5px solid 	#ec0000;
   font-size: 30px;
   margin-bottom: 40px;
   font-weight: bold;
- }
+  color: #f0f0f0;
+  font-family: 'ABeeZee';
+  border-radius: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
 
- #start-btn:hover{
-  background-color: #06a347;
+#start-btn:hover{
+  background-color: #bc0101;
+  border: 5px solid 	#bc0101;
   cursor: pointer;
- }
+}
 
- #start-btn:active{
+#start-btn:active{
   -webkit-transform: translateY(6px);
   transform: translateY(6px);
   border: none;
- }
-
-
+}
 
 
 /* !CARD */   
